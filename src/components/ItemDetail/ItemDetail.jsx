@@ -1,5 +1,5 @@
 import { Item } from "../Item/Item";
-import "./ItemDetail.css";
+import "./Itemdetail.css";
 import {useCartContext} from "../../context/CartContext/useCartContext";
 import { Count } from "../Count/Count";
 
