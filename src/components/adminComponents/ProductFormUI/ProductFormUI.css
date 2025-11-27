@@ -6,7 +6,7 @@
     padding: 25px;
     background: #dccbcb;
     border-radius: 15px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    box-shadow: 0 6px 20px rgba(188, 102, 102, 0.08);
     font-family: "Inter", Arial, sans-serif;
 }
 
@@ -16,7 +16,7 @@
     margin-bottom: 20px;
     font-size: 26px;
     font-weight: 700;
-    color: #333;
+    color: #fb4e4e;
 }
 
 /* ===== Contenedores de inputs ===== */
@@ -29,7 +29,7 @@
     display: block;
     font-weight: 600;
     margin-bottom: 5px;
-    color: #444;
+    color: #ec4242;
 }
 
 /* ===== Inputs, select, textarea ===== */
@@ -41,7 +41,7 @@
     border: 1px solid #ccc;
     border-radius: 8px;
     font-size: 15px;
-    background: #091017;
+    background: #a47d22;
     transition: border-color 0.25s ease;
 }
 
