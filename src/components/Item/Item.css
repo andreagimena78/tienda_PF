@@ -1,0 +1,51 @@
+.product-item {
+    background: #fff;
+    border-radius: 16px;
+    padding: 1.2rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+    transition: transform 0.2s ease;
+    width: 100%; /* 🔥 Hace que ocupe todo el ancho de la columna Bootstrap */
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.product-item:hover {
+    transform: translateY(-4px);
+}
+
+.product-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+/* Tus estilos actuales: NO LOS TOCO, están perfectos */
+.product-item p {
+    color: #555;
+    font-size: 1rem;
+    margin: 0.3rem 0;
+}
+
+.product-item p:nth-child(3) {
+    font-weight: bold;
+    color: #6ca36c;
+}
+
+.product-item button {
+    background-color: #ffb84d;
+    border: none;
+    border-radius: 12px;
+    padding: 0.6rem 1.2rem;
+    margin-top: 0.8rem;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.product-item button:hover {
+    background-color: #ffa733;
+    transform: translateY(-2px);
+}
+

@@ -1,0 +1,85 @@
+/* ===== Contenedor del formulario ===== */
+.product-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 25px;
+    background: #dccbcb;
+    border-radius: 15px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    font-family: "Inter", Arial, sans-serif;
+}
+
+/* ===== Título ===== */
+.product-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+}
+
+/* ===== Contenedores de inputs ===== */
+.product-form div {
+    margin-bottom: 15px;
+}
+
+/* ===== Labels ===== */
+.product-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #444;
+}
+
+/* ===== Inputs, select, textarea ===== */
+.product-form input,
+.product-form select,
+.product-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    background: #091017;
+    transition: border-color 0.25s ease;
+}
+
+.product-form input:focus,
+.product-form select:focus,
+.product-form textarea:focus {
+    border-color: #4b7bec;
+    outline: none;
+}
+
+/* ===== Error message ===== */
+.error {
+    color: #d63031;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+/* ===== Botón ===== */
+.product-form .btn {
+    width: 100%;
+    padding: 12px;
+    background: #eef3c1;
+    color: rgb(19, 5, 5);
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.25s ease, transform 0.2s;
+    margin-top: 10px;
+}
+
+.product-form .btn:hover:not(:disabled) {
+    background: #d65538;
+    transform: translateY(-2px);
+}
+
+.product-form .btn:disabled {
+    background: #d8bd94;
+    cursor: not-allowed;
+}

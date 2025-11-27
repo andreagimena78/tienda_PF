@@ -1,0 +1,22 @@
+.item-detail {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+.item-detail img {
+    width: 280px;
+    height:auto;
+    border-radius: 12px;
+    object-fit: contain;
+    padding: 10px;
+}
+
